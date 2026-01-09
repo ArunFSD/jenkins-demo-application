@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
     @GetMapping("/index")
     public String index(){
-        return "Welcome to the index page, Jenkins Web Hook implement completed";
+        return "Welcome to the index page, Jenkins demo showcase";
     }
 }
